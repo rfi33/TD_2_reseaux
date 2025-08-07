@@ -8,7 +8,7 @@ import lombok.Setter;
 @Setter
 @AllArgsConstructor
 
-public class publication {
+public class Publication {
     private int id;
     private String titre;
     private String description;

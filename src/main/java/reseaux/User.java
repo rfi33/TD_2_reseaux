@@ -4,7 +4,7 @@ import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.Setter;
 
-import java.time.LocalDate;
+import java.time.Instant;
 
 @Getter
 @Setter
@@ -13,7 +13,9 @@ import java.time.LocalDate;
 public class User {
     private int id;
     private String pseudo;
-    private LocalDate creationDate;
+    private Instant creationDate;
     private String email;
+    private Social social;
+
 
 }

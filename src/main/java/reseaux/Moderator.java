@@ -1,11 +1,10 @@
 package reseaux;
 
-import java.time.LocalDate;
+import java.time.Instant;
 
 public class Moderator extends User {
-    public Moderator(int id, String pseudo, LocalDate creation_date, String email) {
-        super(id, pseudo, creation_date, email);
+    public Moderator(int id, String pseudo, Instant creationDate, String email, Social social) {
+        super(id, pseudo, creationDate, email, social);
     }
-
-
 }
+
