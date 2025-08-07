@@ -5,16 +5,15 @@ import lombok.Getter;
 import lombok.Setter;
 
 import java.time.LocalDate;
-import java.util.List;
 
 @Getter
 @Setter
 @AllArgsConstructor
 
-public class user {
+public class User {
     private int id;
     private String pseudo;
-    private LocalDate creation_date;
+    private LocalDate creationDate;
     private String email;
 
 }
